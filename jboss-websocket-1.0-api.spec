@@ -1,9 +1,11 @@
+%{?_javapackages_macros:%_javapackages_macros}
+
 %global namedreltag .Final
 %global namedversion %{version}%{?namedreltag}
 
 Name:             jboss-websocket-1.0-api
 Version:          1.0.0
-Release:          2
+Release:          3
 Summary:          JSR-356: Java WebSocket 1.0 API
 License:          CDDL or GPLv2 with exceptions
 Url:              https://github.com/jboss/jboss-websocket-api_spec
